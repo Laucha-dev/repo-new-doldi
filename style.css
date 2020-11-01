@@ -1,0 +1,549 @@
+/* Reset and sass start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: CenturyGothic-Normal;
+  src: url(fuentes/GOTHIC.TTF);
+}
+@font-face {
+  font-family: CenturyGothic-Negrita;
+  src: url(fuentes/GOTHICB.TTF);
+}
+@font-face {
+  font-family: CenturyGothic-Cursiva;
+  src: url(fuentes/GOTHICI.TTF);
+}
+@font-face {
+  font-family: CenturyGothic-Cursiva-Negrita;
+  src: url(fuentes/GOTHICBI.TTF);
+}
+/* INICIO ESTILOS SECCION US */
+.contenedor-us {
+  margin: 70px 50px 0px 70px;
+  text-align: center;
+}
+
+.contenedor-us div h2 {
+  font-family: CenturyGothic-Negrita;
+}
+
+.contenedor-us div p {
+  font-family: CenturyGothic-Normal;
+}
+
+.amigos {
+  width: 50%;
+}
+
+/* FIN ESTILOS SECCION US */
+/* INICIO ESTILOS SECCION INFO */
+.contenedor-info {
+  margin: 70px 50px 0px 70px;
+  text-align: center;
+}
+
+.contenedor-info div h2 {
+  font-family: CenturyGothic-Negrita;
+  margin-bottom: 35px;
+}
+
+.contenedor-info div p {
+  font-family: CenturyGothic-Normal;
+}
+
+/* FIN ESTILOS SECCION INFO */
+/* INICIO ESTILOS SECCION BAGS */
+.tittle-bags {
+  font-family: CenturyGothic-Negrita;
+  text-align: center;
+}
+
+.body-bags {
+  margin: 30px 40px 30px 40px;
+}
+
+.body-bags ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.body-bags ul li div h2 {
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  font-size: 24px;
+}
+
+.body-bags ul li div img {
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  display: flex;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.list-content h2 {
+  font-family: CenturyGothic-Negrita;
+  text-align: center;
+}
+
+.list-content p {
+  font-family: CenturyGothic-Normal;
+  text-align: center;
+}
+
+.list-content a {
+  font-family: CenturyGothic-Normal;
+  text-align: center;
+}
+
+@media all and (min-width: 40em) {
+  .list-item {
+    width: 50%;
+  }
+}
+@media all and (min-width: 60em) {
+  .list-item {
+    width: 33.33%;
+  }
+}
+.list-content {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: 100%;
+}
+
+.list-content p {
+  flex: 1 0 auto;
+}
+
+/* FIN ESTILOS SECCION BAGS */
+/* INICIO ESTILOS SECCION ACCESORIES */
+.tittle-accesories {
+  font-family: CenturyGothic-Negrita;
+  text-align: center;
+}
+
+.body-accesories {
+  margin: 30px 40px 30px 40px;
+}
+
+.body-accesories ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.body-accesories ul li div h2 {
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  font-size: 24px;
+}
+
+.body-accesories ul li div img {
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  display: flex;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.list-content h2 {
+  font-family: CenturyGothic-Negrita;
+  text-align: center;
+}
+
+.list-content p {
+  font-family: CenturyGothic-Normal;
+  text-align: center;
+}
+
+.list-content a {
+  font-family: CenturyGothic-Normal;
+  text-align: center;
+}
+
+@media all and (min-width: 40em) {
+  .list-item {
+    width: 50%;
+  }
+}
+@media all and (min-width: 60em) {
+  .list-item {
+    width: 33.33%;
+  }
+}
+.list-content {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: 100%;
+}
+
+.list-content p {
+  flex: 1 0 auto;
+}
+
+/* FIN ESTILOS SECCION ACCESORIES */
+/* INICIO ESTILOS SECCION NEW ARRIVALS */
+.tittle-new {
+  font-family: CenturyGothic-Negrita;
+  text-align: center;
+}
+
+.body-new {
+  margin: 30px 40px 30px 40px;
+}
+
+.body-new ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.body-new ul li div h2 {
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  font-size: 24px;
+}
+
+.body-new ul li div img {
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  display: flex;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.list-content h2 {
+  font-family: CenturyGothic-Negrita;
+  text-align: center;
+}
+
+.list-content p {
+  font-family: CenturyGothic-Normal;
+  text-align: center;
+}
+
+.list-content a {
+  font-family: CenturyGothic-Normal;
+  text-align: center;
+}
+
+@media all and (min-width: 40em) {
+  .list-item {
+    width: 50%;
+  }
+}
+@media all and (min-width: 60em) {
+  .list-item {
+    width: 33.33%;
+  }
+}
+.list-content {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: 100%;
+}
+
+.list-content p {
+  flex: 1 0 auto;
+}
+
+/* FIN ESTILOS SECCION NEW ARRIVALS */
+/* Resent and sass end */
+/* Header start */
+.contenedor-tagline {
+  background-color: #181419;
+  width: 100%;
+  height: 25px;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.contenedor-tagline div h3 {
+  color: white;
+  font-family: CenturyGothic-Normal;
+  font-size: 13px;
+  padding-top: 4px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px;
+}
+
+.logo-header {
+  width: 280px;
+}
+
+/* Mobile Style */
+@media only screen and (max-width: 400px) {
+  .logo-header {
+    width: 180px;
+  }
+}
+/* Tablet Style */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .logo-header {
+    width: 190px;
+  }
+}
+.ig-header {
+  width: 25px;
+}
+
+/* Mobile Style */
+@media only screen and (max-width: 400px) {
+  .ig-header {
+    width: 20px;
+  }
+}
+/* Tablet Style */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .ig-header {
+    width: 21px;
+  }
+}
+.carrito {
+  width: 22px;
+}
+
+/*Mbile Style */
+@media only screen and (max-width: 400px) {
+  .carrito {
+    width: 17px;
+  }
+}
+/*Tablet Style */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .carrito {
+    width: 18px;
+  }
+}
+/* Header end */
+/* Nav start */
+.nav {
+  margin-right: 5px;
+}
+
+.navbar-nav {
+  text-decoration: none;
+  font-family: CenturyGothic-Normal;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-weight: bold;
+}
+
+.navbar {
+  position: sticky;
+  top: 0px;
+}
+
+.navbar-nav a:hover {
+  font-style: italic;
+}
+
+/* Nav end */
+/* Carousel start */
+.carousel {
+  display: flex;
+  top: 0;
+  right: 0;
+  z-index: 200;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 11px 0px 0px 0px;
+}
+
+.carousel-item div h5 {
+  font-family: CenturyGothic-Negrita;
+}
+
+.carousel-item div p {
+  font-family: CenturyGothic-Negrita;
+}
+
+/* Carousel end */
+/* Main start */
+.cuerpo {
+  margin: 70px 50px 0px 70px;
+}
+
+.cuerpo div {
+  text-align: center;
+}
+
+.cuerpo div h2 {
+  font-family: CenturyGothic-Negrita;
+}
+
+.cuerpo div p {
+  font-family: CenturyGothic-Normal;
+  margin-bottom: 50px;
+}
+
+.container {
+  font-family: CenturyGothic-Normal;
+  padding: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center !important;
+}
+
+.row {
+  justify-content: center;
+}
+
+.btn {
+  margin: 10px;
+  color: black;
+}
+
+.video-filo {
+  width: 100%;
+  align-content: center;
+}
+
+.video-filo iframe {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.body-bags ul div a {
+  text-decoration: none;
+  color: black;
+}
+.body-bags ul div a:hover {
+  color: black;
+  font-style: italic;
+  text-decoration: none;
+}
+
+/* Main end */
+/* Footer start */
+.contenedor-footer {
+  display: flex;
+  background-color: #181419;
+  padding: 20px 30px 20px 30px;
+  justify-content: space-between;
+}
+
+.foo {
+  width: 100%;
+}
+
+.col {
+  font-family: CenturyGothic-Normal;
+  color: white;
+  font-size: 14px;
+}
+
+.tit-col {
+  font-family: CenturyGothic-Negrita;
+}
+
+.contenedor-footer section {
+  margin: 0px 20px 0px 20px;
+}
+
+.col a img {
+  width: 40px;
+}
+
+footer section div a {
+  text-decoration: none;
+  color: white;
+}
+footer section div a:hover {
+  color: white;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.social-contenedor {
+  display: inline-flex;
+}
+
+/* Footer end */
+/* Creator start */
+.contenedor-creador {
+  background-color: #181419;
+  width: 100%;
+  height: 37px;
+  margin: auto;
+  padding: 0px;
+}
+
+.contenedor-creador div h4 {
+  color: white;
+  font-family: CenturyGothic-Normal;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 13px;
+  opacity: 95%;
+}
+
+.lm {
+  max-width: 40px;
+  padding: 5px;
+}
+
+/* Creator end */
+/* Wpp start */
+.contenedor-wpp a img {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  height: 10%;
+  max-width: 60px;
+  z-index: 9999;
+}
+
+/* Wpp end */
+
+/*# sourceMappingURL=style.css.map */

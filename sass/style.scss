@@ -1,0 +1,305 @@
+/* Reset and sass start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import 'fonts';
+@import 'colors';
+@import 'us';
+@import 'faq';
+@import 'bags';
+@import 'accesories';
+@import 'new-arribals';
+
+/* Resent and sass end */
+
+/* Header start */
+.contenedor-tagline {
+    background-color: $brand-color1;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.contenedor-tagline div h3 {
+    color: white;
+    font-family: CenturyGothic-Normal;
+    font-size: 13px;
+    padding-top: 4px
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+}
+
+.logo-header {
+    width: 280px;
+}
+
+/* Mobile Style */
+@media only screen and (max-width: 400px) {
+    .logo-header {
+        width: 180px;
+    }
+}
+
+/* Tablet Style */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .logo-header {
+        width: 190px;
+    }
+}
+
+.ig-header {
+    width: 25px;
+}
+
+/* Mobile Style */
+@media only screen and (max-width: 400px) {
+    .ig-header {
+        width: 20px;
+    }
+}
+
+/* Tablet Style */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .ig-header {
+        width: 21px;
+    }
+}
+.carrito {
+    width: 22px;
+}
+
+/*Mbile Style */
+@media only screen and (max-width: 400px) {
+    .carrito {
+        width: 17px;
+    }
+}
+
+/*Tablet Style */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .carrito {
+        width: 18px;
+    }
+}
+/* Header end */
+
+/* Nav start */
+.nav {
+    margin-right: 5px;
+}
+
+.navbar-nav {
+    text-decoration: none;
+    font-family: CenturyGothic-Normal;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+}
+
+.navbar-nav a:hover {
+    font-style: italic;
+}
+
+/* Nav end */
+
+/* Carousel start */
+.carousel {
+    display: flex;
+    top: 0;
+    right: 0;
+    z-index: 200;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 11px 0px 0px 0px;
+}
+
+.carousel-item div h5 {
+    font-family: CenturyGothic-Negrita;
+}
+
+.carousel-item div p {
+    font-family: CenturyGothic-Negrita;
+}
+
+/* Carousel end */
+
+/* Main start */
+.cuerpo {
+    margin: 70px 50px 0px 70px;
+}
+
+.cuerpo div {
+    text-align: center;
+}
+
+.cuerpo div h2 {
+    font-family: CenturyGothic-Negrita;
+}
+
+.cuerpo div p {
+    font-family: CenturyGothic-Normal;
+    margin-bottom: 50px;
+}
+
+.container {
+    font-family: CenturyGothic-Normal;
+    padding: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center !important;
+
+}
+
+.row {
+    justify-content: center;
+}
+
+.btn {
+    margin: 10px;
+    color: black;
+}
+
+.video-filo {
+    width: 100%;
+    align-content: center;
+}
+
+.video-filo iframe {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.body-bags {
+    ul {
+        div {
+            a {
+                text-decoration: none;
+                color: black;
+
+                &:hover {
+                    color: black;
+                    font-style: italic;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+/* Main end */
+
+/* Footer start */
+.contenedor-footer {
+    display: flex;
+    background-color: $brand-color1;
+    padding: 20px 30px 20px 30px;
+    justify-content: space-between;
+}
+
+.foo {
+    width: 100%;
+}
+
+.col {
+    font-family: CenturyGothic-Normal;
+    color: white;
+    font-size: 14px;
+}
+
+.tit-col {
+    font-family: CenturyGothic-Negrita;
+}
+
+.contenedor-footer section {
+    margin: 0px 20px 0px 20px;
+}
+
+.col a img {
+    width: 40px;
+}
+
+footer {
+    section {
+        div {
+            a {
+                text-decoration: none;
+                color: white;
+
+                &:hover {
+                    color: white;
+                    font-style: italic;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.social-contenedor {
+    display: inline-flex;
+}
+
+/* Footer end */
+
+/* Creator start */
+.contenedor-creador {
+    background-color: $brand-color1;
+    width: 100%;
+    height: 37px;
+    margin: auto;
+    padding: 0px;
+}
+
+.contenedor-creador div h4 {
+    color: white;
+    font-family: CenturyGothic-Normal;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    opacity: 95%
+}
+
+.lm {
+    max-width: 40px;
+    padding: 5px;
+}
+
+/* Creator end */
+
+/* Wpp start */
+
+.contenedor-wpp a img {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    height: 10%;
+    max-width: 60px;
+    z-index: 9999;
+}
+
+/* Wpp end */
+

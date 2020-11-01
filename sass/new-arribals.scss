@@ -1,0 +1,79 @@
+/* INICIO ESTILOS SECCION NEW ARRIVALS */
+
+.tittle-new {
+    font-family: CenturyGothic-Negrita;
+    text-align: center;
+}
+
+.body-new {
+    margin: 30px 40px 30px 40px;
+}
+
+.body-new ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.body-new ul li div h2 {
+    margin-top: 0;
+    margin-bottom: 0.4em;
+    font-size: 24px;
+}
+
+.body-new ul li div img {
+    width: 100%;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-item {
+    display: flex;
+    padding: 0.5em;
+    width: 100%;
+}
+
+.list-content h2 {
+    font-family: CenturyGothic-Negrita;
+    text-align: center;
+}
+
+.list-content p {
+    font-family: CenturyGothic-Normal;
+    text-align: center;
+}
+
+.list-content a {
+    font-family: CenturyGothic-Normal;
+    text-align: center;
+}
+
+
+@media all and (min-width: 40em) {
+    .list-item {
+        width: 50%;
+    }
+}
+
+@media all and (min-width: 60em) {
+    .list-item {
+        width: 33.33%;
+    }
+}
+
+.list-content {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    width: 100%;
+}
+
+.list-content p {
+    flex: 1 0 auto;
+}
+/* FIN ESTILOS SECCION NEW ARRIVALS */
