@@ -5,6 +5,22 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: CenturyGothic-Normal;
+  src: url(fuentes/GOTHIC.TTF);
+}
+@font-face {
+  font-family: CenturyGothic-Negrita;
+  src: url(fuentes/GOTHICB.TTF);
+}
+@font-face {
+  font-family: CenturyGothic-Cursiva;
+  src: url(fuentes/GOTHICI.TTF);
+}
+@font-face {
+  font-family: CenturyGothic-Cursiva-Negrita;
+  src: url(fuentes/GOTHICBI.TTF);
+}
 /* INICIO ESTILOS SECCION US */
 .contenedor-us {
   margin: 70px 50px 0px 70px;
@@ -282,7 +298,7 @@ li {
 
 .contenedor-tagline div h3 {
   color: white;
-  font-family: century-gothic, sans-serif;
+  font-family: CenturyGothic-Normal;
   font-size: 13px;
   padding-top: 4px;
 }
@@ -350,11 +366,10 @@ li {
 
 .navbar-nav {
   text-decoration: none;
-  font-family: century-gothic, sans-serif;
+  font-family: CenturyGothic-Normal;
   margin-left: auto;
   margin-right: auto;
   font-weight: 10;
-  font-style: normal;
 }
 
 .navbar-light .navbar-nav .nav-link {
