@@ -29,7 +29,7 @@
 
 .contenedor-tagline div h3 {
     color: white;
-    font-family: CenturyGothic-Normal;
+    font-family: $font;
     font-size: 13px;
     padding-top: 4px
 }
@@ -102,9 +102,11 @@
 
 .navbar-nav {
     text-decoration: none;
-    font-family: CenturyGothic-Normal;
+    font-family: $font;
     margin-left: auto;
     margin-right: auto;
+    font-weight: 10;
+    font-style: normal;
 }
 
 .navbar-light .navbar-nav .nav-link {
