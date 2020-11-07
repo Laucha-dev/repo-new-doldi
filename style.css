@@ -330,7 +330,7 @@ li {
   width: 25px;
 }
 
-.ig-header:hover {
+img a header:hover {
   fill: #8191a4;
 }
 
@@ -348,10 +348,6 @@ li {
 }
 .carrito {
   width: 22px;
-}
-
-.carrito:hover {
-  fill: #8191a4;
 }
 
 /*Mbile Style */
