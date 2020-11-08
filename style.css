@@ -330,8 +330,8 @@ li {
   width: 25px;
 }
 
-img a header:hover {
-  fill: #8191a4;
+.ig-header:hover {
+  fill: grey;
 }
 
 /* Mobile Style */
