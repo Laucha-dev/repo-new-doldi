@@ -331,7 +331,7 @@ li {
 }
 
 .ig-header:hover {
-  fill: grey;
+  background-color: #dfdfdf;
 }
 
 /* Mobile Style */
