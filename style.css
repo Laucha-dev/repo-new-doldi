@@ -390,6 +390,24 @@ li {
   font-style: italic;
 }
 
+/*Mbile Style */
+@media only screen and (max-width: 400px) {
+  .navbar {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 999999;
+  }
+}
+/*Tablet Style */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .navbar {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 999999;
+  }
+}
 /* Nav end */
 /* Carousel start */
 .carousel {
