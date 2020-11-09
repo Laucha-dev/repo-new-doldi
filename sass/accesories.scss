@@ -50,6 +50,14 @@ li {
 .list-content a {
     font-family: CenturyGothic-Normal;
     text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.list-content a:hover {
+    text-decoration: none;
+    color: grey;
 }
 
 
