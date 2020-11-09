@@ -23,7 +23,7 @@
 }
 /* INICIO ESTILOS SECCION US */
 .contenedor-us {
-  margin: 70px 50px 0px 70px;
+  margin: 20px 50px 0px 50px;
   text-align: center;
 }
 
@@ -39,10 +39,22 @@
   width: 50%;
 }
 
+/*Mbile Style */
+@media only screen and (max-width: 400px) {
+  .amigos {
+    width: 100%;
+  }
+}
+/*Tablet Style */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .amigos {
+    width: 70%;
+  }
+}
 /* FIN ESTILOS SECCION US */
 /* INICIO ESTILOS SECCION INFO */
 .contenedor-info {
-  margin: 70px 50px 0px 70px;
+  margin: 20px 50px 0px 50px;
   text-align: center;
 }
 
@@ -63,7 +75,7 @@
 }
 
 .body-bags {
-  margin: 30px 40px 30px 40px;
+  margin: 20px 40px 30px 40px;
 }
 
 .body-bags ul,
@@ -139,7 +151,7 @@ li {
 }
 
 .body-accesories {
-  margin: 30px 40px 30px 40px;
+  margin: 20px 40px 30px 40px;
 }
 
 .body-accesories ul,
@@ -223,7 +235,7 @@ li {
 }
 
 .body-new {
-  margin: 30px 40px 30px 40px;
+  margin: 20px 40px 30px 40px;
 }
 
 .body-new ul,
