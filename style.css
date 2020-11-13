@@ -286,6 +286,17 @@ li {
   width: 100%;
 }
 
+.body-accesories ul li div img {
+  width: 100%;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.body-accesories ul li div img:hover {
+  transform: scale(1.1);
+  filter: opacity(80%);
+  transition: all 0.5s ease;
+}
+
 .list-content h2 {
   font-family: CenturyGothic-Negrita;
   text-align: center;
@@ -362,6 +373,17 @@ li {
 .list {
   display: flex;
   flex-wrap: wrap;
+}
+
+.body-new ul li div img {
+  width: 100%;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.body-new ul li div img:hover {
+  transform: scale(1.1);
+  filter: opacity(80%);
+  transition: all 0.5s ease;
 }
 
 .list-item {
