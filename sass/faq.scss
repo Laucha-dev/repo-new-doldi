@@ -1,7 +1,7 @@
 /* INICIO ESTILOS SECCION INFO */
 
 .contenedor-info {
-    margin: 20px 50px 0px 50px;
+    margin: 70px 50px 0px 70px;
     text-align: center;
 }
 
@@ -10,8 +10,107 @@
     margin-bottom: 35px;
 }
 
+.btn:active {
+    outline: none !important;
+}
+
+.btn:focus {
+    outline: none !important;
+}
+
+.btn:hover {
+    color: black !important;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.btn-link:hover {
+    text-decoration: none !important;
+}
+
+.card-body {
+    font-family: CenturyGothic-Normal;
+}
+
 .contenedor-info div p {
     font-family: CenturyGothic-Normal;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-header {
+    background-color: transparent !important;
+    border-bottom: transparent !important;
+    padding: 0px !important;
+}
+
+.card-header h5 {
+    font-family: CenturyGothic-Normal;
+}
+
+#accordion {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+/* Mobile Style */
+@media only screen and (max-width: 400px) {
+    #accordion {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+/* Tablet Style */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    #accordion {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+#accordion .btn {
+    white-space: initial !important;
+    height: initial !important;
+    line-height: initial !important;
+    text-align: left !important;
+    margin-bottom: 10px !important
+}
+
+#accordion h5 {
+    margin: 0 0 10px !important
+}
+
+#accordion .btn.btn-link {
+    background: none;
+    background-color: transparent;
+    color: #000;
+    border: none;
+    padding: 0
+}
+
+#accordion .btn.btn-link :hover {
+    color: #444
+}
+
+#accordion .btn.btn-link {
+    border: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 !important
+}
+
+#accordion .card-body {
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+
+#accordion .card-body p {
+    margin-bottom: 2px;
 }
 
 /* FIN ESTILOS SECCION INFO */
