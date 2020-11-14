@@ -24,12 +24,10 @@ li {
 
 .body-bags ul li div img {
     width: 100%;
-    box-shadow: 0 2px rgba(0, 0, 0, 0.2);
 }
 
 .body-bags ul li div img:hover {
     transform: scale(1.1);
-    filter: opacity(80%);
     transition: all .5s ease
 }
 
