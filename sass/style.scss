@@ -1,4 +1,5 @@
 /* Reset and sass start */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +17,7 @@
 /* Resent and sass end */
 
 /* Header start */
+
 .contenedor-tagline {
     background-color: $brand-color1;
     width: 100%;
@@ -80,6 +82,7 @@
         width: 21px;
     }
 }
+
 .carrito {
     width: 22px;
 }
@@ -97,9 +100,11 @@
         width: 18px;
     }
 }
+
 /* Header end */
 
 /* Nav start */
+
 .nav {
     margin-right: 5px;
 }
@@ -124,7 +129,7 @@
 /*Mbile Style */
 @media only screen and (max-width: 960px) {
     .navbar {
-        position: sticky !important ;
+        position: sticky !important;
         top: 0px;
         background-color: white;
         z-index: 999999;
@@ -134,6 +139,7 @@
 /* Nav end */
 
 /* Carousel start */
+
 .carousel {
     display: flex;
     top: 0;
@@ -156,6 +162,7 @@
 /* Carousel end */
 
 /* Main start */
+
 .cuerpo {
     margin: 70px 50px 0px 50px;
 }
@@ -175,7 +182,7 @@
 
 .container {
     font-family: CenturyGothic-Normal;
-    padding: 50px;
+    padding: 30px 50px 30px 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -223,7 +230,7 @@
     transition: all 0.25s;
 }
 
-.container-card .card:hover{
+.container-card .card:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
@@ -253,9 +260,11 @@
     text-decoration: none;
     color: black;
 }
+
 /* Main end */
 
 /* Footer start */
+
 .contenedor-footer {
     display: flex;
     background-color: $brand-color1;
@@ -309,6 +318,7 @@ footer {
 /* Footer end */
 
 /* Creator start */
+
 .contenedor-creador {
     background-color: $brand-color1;
     width: 100%;
@@ -346,4 +356,3 @@ footer {
 }
 
 /* Wpp end */
-
