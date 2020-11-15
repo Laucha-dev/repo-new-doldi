@@ -349,6 +349,12 @@ li {
   margin: 20px 40px 30px 40px;
 }
 
+.body-new p {
+  font-family: CenturyGothic-Normal;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 .body-new ul,
 li {
   margin: 0;
@@ -399,6 +405,36 @@ li {
 .list-content a {
   font-family: CenturyGothic-Normal;
   text-align: center;
+}
+
+.card-group .card .card-body .card-text {
+  position: absolute;
+  z-index: 1;
+}
+
+.list-content .card-text {
+  width: 88px !important;
+}
+
+.pr-1, .px-1 {
+  padding-right: 0.25rem !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.m-1 {
+  margin: 0.25rem !important;
+  font-family: CenturyGothic-Normal;
+}
+
+.bg-secondary {
+  background-color: red !important;
+}
+
+.pr-1, .px-1 {
+  padding-right: 0.25rem !important;
 }
 
 @media all and (min-width: 40em) {
