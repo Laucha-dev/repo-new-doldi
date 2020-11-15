@@ -443,6 +443,11 @@ li {
   padding-top: 4px;
 }
 
+@media only screen and (max-width: 749px) {
+  .contenedor-tagline {
+    display: none;
+  }
+}
 .header {
   display: flex;
   justify-content: space-between;
